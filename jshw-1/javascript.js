@@ -37,7 +37,7 @@ var myChart = new Chart(ctx, {
         },
         title: {
           display: true,
-          text: 'Genres of the Top IMDB 50 Moives '
+          text: 'Genres of the Top 50 IMDB Moives '
 
         },
             subtitle: {
