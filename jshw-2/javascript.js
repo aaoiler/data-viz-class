@@ -31,10 +31,19 @@ var myChart = new Chart(ctx, {
             y: {
                 beginAtZero: true,
                 stacked: true
+            ,title: {
+                    display: true,
+                    text: 'Ratings'
+                  },
             },
             x: {
-                stacked: true
+                stacked: true  
+                ,title: {
+                    display: true,
+                    text: 'Amount of Movies'
+                  }
             }
         },
+        },
     },
-});
+);
